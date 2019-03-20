@@ -27,3 +27,9 @@ If its not valid it sets the time to 0, and displays an error.
 It also checks if chainWithNextRequest has a true or false.
 
 ## Edit the code
+If you want to add things to the code you can simply edit the strings.
+jsonText.innerHTML changes the text in the textarea, 
+but it adds itself and puts a string behind it. (jsonText.innerHTML = jsonText.innerHTML + "Any text here";)
+errorBool, errorAction and comma are variables that are empty unless it needs to be added to the string.
+
+At last it sets the error messege underneath the textarea.
