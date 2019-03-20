@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="overlay.css">
+    <meta charset="utf-8">
+    <script src="js-xlsx/dist/xlsx.full.min.js" charset="utf-8"></script>
+    <title>Excel to Json</title>
+  </head>
+  <body>
+    <h2>Upload excel file to convert it to json</h2>
+    <hr>
+    <input type="file" value="" id="uploadFile">
+    <br>
+    <input type="button" value="Convert" id="convertBtn">
+    <br>
+    <hr>
+    <h2>Converted JSON</h2>
+    <textarea rows="45" cols="120" id="jsonText"></textarea>
+    <br>
+    <h2 style="color:red" id="errorText"></h2>
+    <br>
+    <br>
+    <br>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: gray;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+  border-radius: 5px;
+  border-color: black;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+#errorText {
+  margin: auto;
+  background-color: black;
+  width: 850px;
+  padding: 3px;
+}
