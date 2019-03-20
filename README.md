@@ -33,3 +33,8 @@ but it adds itself and puts a string behind it. (jsonText.innerHTML = jsonText.i
 errorBool, errorAction and comma are variables that are empty unless it needs to be added to the string.
 
 At last it sets the error messege underneath the textarea.
+
+## What i used
+This script needs js-xlsx library
+It uses xlsx.full.min.js
+You can download it [here](https://github.com/SheetJS/js-xlsx)
