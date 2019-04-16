@@ -26,6 +26,12 @@ If they are valid it adds the time for that action.
 If its not valid it sets the time to 0, and displays an error.
 It also checks if chainWithNextRequest has a true or false.
 
+## How to install/use
+Download the project and open the index.html
+* Edge is able to run the script no problem due to bad security.
+* Chrome needs a host for the script to gain acces to the files.
+* You can upload it to an sql server and acces it as a site. (meant to be)
+
 ## Edit the code
 If you want to add things to the code you can simply edit the strings.
 jsonText.innerHTML changes the text in the textarea, 
