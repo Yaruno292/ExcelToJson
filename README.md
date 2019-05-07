@@ -30,6 +30,10 @@ It also checks if chainWithNextRequest has a true or false.
 Download the project and open the index.html
 * Edge is able to run the script no problem due to bad security.
 * Chrome needs a host for the script to gain acces to the files.
+  - You can use MAMP for example. 
+  - After you have installed MAMP select the
+    file directory then press ok and start host.
+  - Open Chrome and type in: localhost.
 * You can upload it to an sql server and acces it as a site. (meant to be)
 
 ## Edit the code
