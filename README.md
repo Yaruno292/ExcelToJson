@@ -20,7 +20,7 @@ I created another for loop to loop through that array aswell.
 [j] = loop number based on how many pieces cut.
 Now it lists multiple actions beneath eachother.
 
-Contect Check,
+Content Check,
 The script looks through the action names to see if they are valid.
 If they are valid it adds the time for that action.
 If its not valid it sets the time to 0, and displays an error.
